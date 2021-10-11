@@ -1070,7 +1070,7 @@ section {
     margin: 0 auto;
 }
 .section-heading .hr:after {
-    content: "\f101";
+    content: "\f11f";
     font-family: Flaticon;
     display: inline-block;
     position: relative;
@@ -1274,7 +1274,7 @@ ul.breadcrumb {
 .breadcrumb a:hover,
 .breadcrumb a:focus,
 .breadcrumb>.active {
-    color: #cecece;
+    color: #000;
 }
 .breadcrumb>li+li:before {
     padding: 0 10px;
@@ -1758,7 +1758,6 @@ blockquote:before {
     margin-top: 50px;
 }
 /* Jumbotron */
-
 .jumbotron {
     background-image: url(../img/jumbotron.jpg);
     background-repeat: no-repeat;
@@ -1766,8 +1765,29 @@ blockquote:before {
     height: 310px;
     background-position: center;
 }
+.jumbotron-masjid {
+    background-image: url(../img/masjidalnoor-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    background-position: center;
+}
+.jumbotron-vision-mission {
+    background-image: url(../img/vision-mission.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    background-position: center;
+}
+.jumbotron-principal {
+    background-image: url(../img/principal-message.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    background-position: center;
+}
 .jumbo-heading {
-    background-image: url(../img/bgdots.png), url(../img/bgdots2.png);
+    background-color: #69bee5!important;/*url(../img/bgdots.jpeg), url(../img/bgdots2.png);*/
     background-position: center left, center right;
     background-repeat: no-repeat;
     padding: 30px;
